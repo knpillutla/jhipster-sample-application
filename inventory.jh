@@ -1,0 +1,42 @@
+entity Inventory {
+	id Long,
+    busName String,
+    locnNbr String,
+    company String,
+    division String,
+    busUnit String,
+    locnBrcd String,
+    itemBrcd String,
+    qty Integer,
+    status String,
+    ilpn String,
+    batchNbr String,
+    packageNbr String,
+    orderNbr String,
+    orderLineNbr Integer,
+    orderId Long,
+    orderLineId Long,
+    locked String,
+    souce String,
+    transactionName String,
+    hostName String,
+    createdDttm OffsetDateTime,
+    updatedDttm OffsetDateTime,
+    createdBy String,
+    updatedBy String
+}
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
+// Set pagination options
+paginate Inventory with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
