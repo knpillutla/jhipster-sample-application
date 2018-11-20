@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "com.threedsoft",
+    "packageFolder": "com/threedsoft",
+    "serverPort": 8081,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.0",
+    "jwtSecretKey": "Mjc0MTFiYzVhYzQxOGMxNjIzNmI1NWZhNDhiMzU1MGI3YzU0ZWQ5YzE3NTA4ODA1ZThkY2NkODk3OWZkZjcxZjQ2MGY0MWMzNWQ5NWVhYmQ0ZTY5MGJhOWQxZjBkNjg0MWRiMDI2MTAxNjQ5MmNiYzQyNjYxZWE2MDI2ZWYyYTU=",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "knpillutla",
+  "repository-name": "jhipster-sample-application"
+}
